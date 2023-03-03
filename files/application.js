@@ -5,7 +5,7 @@ window.RufflePlayer = window.RufflePlayer || {};
 window.RufflePlayer.config = {
     "polyfills": true,
     // Options affecting files only
-    "autoplay": "auto",
+    "autoplay": "on",
     "warnOnUnsupportedContent": false,
     "contextMenu": false,
     "showSwfDownload": false,
