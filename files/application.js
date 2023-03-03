@@ -1,5 +1,19 @@
 var pos;
 var autoflag = 1;
+
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+    "polyfills": true,
+    // Options affecting files only
+    "autoplay": "auto",
+    "warnOnUnsupportedContent": false,
+    "contextMenu": false,
+    "showSwfDownload": false,
+    "menu": false,
+    "quality": "high",
+    "splashScreen": false,
+};
+
 $(document).ready(function(){
 
     /*App Variables*/
