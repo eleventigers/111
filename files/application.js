@@ -6,6 +6,7 @@ window.RufflePlayer.config = {
     "polyfills": true,
     // Options affecting files only
     "autoplay": "on",
+    "unmuteOverlay": "hidden",
     "warnOnUnsupportedContent": false,
     "contextMenu": false,
     "showSwfDownload": false,
